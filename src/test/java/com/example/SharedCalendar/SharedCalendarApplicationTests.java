@@ -8,7 +8,7 @@ class SharedCalendarApplicationTests {
 
 	@Test
 	void contextLoads() {
-		
+		var js = ""
 
 
 	}
