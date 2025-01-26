@@ -13,11 +13,24 @@ import java.util.List;
 public class Appointment {
     @Id
     private String appointId;
-    private Date date;
-    private Time time;
+    private String creator;
+    private String description;
+
     private List<User> attendees;
 
     public String getAppointmentId() {
         return appointId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public List<User> getAttendees() {
+        return attendees;
+    }
+
+    public String getCreator() {
+        return creator;
     }
 }

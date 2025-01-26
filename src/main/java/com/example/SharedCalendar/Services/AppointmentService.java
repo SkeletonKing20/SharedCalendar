@@ -19,4 +19,9 @@ public class AppointmentService implements IAppointmentService{
     public String save(Appointment appointment) {
         return appointmentRepository.save(appointment).getAppointmentId();
     }
+
+    @Override
+    public List<Appointment> getAppointmentsByCreator(String name) {
+        return appointmentRepository.findByCreator(name);
+    }
 }
