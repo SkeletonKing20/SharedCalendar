@@ -7,9 +7,9 @@ const LoginPage = ({ onLogin }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (email && password && calendarCode) {
-            onLogin();
-        }
+
+        onLogin();
+
     };
 
     return (
@@ -67,23 +67,6 @@ const LoginPage = ({ onLogin }) => {
                         placeholder="Passwort"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        style={{
-                            width: "100%", // Full width for input
-                            padding: "12px",
-                            margin: "10px 0",
-                            border: "1px solid #d1d5db",
-                            borderRadius: "10px",
-                            fontSize: "16px",
-                            backgroundColor: "#f9fafb",
-                            boxSizing: "border-box", // Ensure padding doesn't affect width
-                        }}
-                        required
-                    />
-                    <input
-                        type="text"
-                        placeholder="#Beitrittscode"
-                        value={calendarCode}
-                        onChange={(e) => setCalenderCode(e.target.value)}
                         style={{
                             width: "100%", // Full width for input
                             padding: "12px",
