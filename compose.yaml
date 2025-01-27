@@ -1,7 +1,7 @@
 ﻿services:
   frontend:
     build:
-      context: ./Frontend
+      context: ./Frontend/shared-calendar
     ports:
       - "3000:3000"
     depends_on:
