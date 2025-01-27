@@ -1,0 +1,12 @@
+com\example\SharedCalendar\SharedCalendarApplication.class
+com\example\SharedCalendar\Repositories\IAppointmentRepository.class
+com\example\SharedCalendar\Collections\Appointment.class
+com\example\SharedCalendar\Repositories\IUserRepository.class
+com\example\SharedCalendar\Services\IUserService.class
+com\example\SharedCalendar\Controllers\AppointmentController.class
+com\example\SharedCalendar\Collections\User.class
+com\example\SharedCalendar\Collections\Group.class
+com\example\SharedCalendar\Services\AppointmentService.class
+com\example\SharedCalendar\Controllers\UserController.class
+com\example\SharedCalendar\Services\IAppointmentService.class
+com\example\SharedCalendar\Services\UserService.class

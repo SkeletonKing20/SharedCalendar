@@ -1,0 +1,95 @@
+/* Center the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f9; /* Flat, soft background color */
+    margin: 0;
+}
+
+/* The box containing the login form */
+.login-box {
+    background: #ffffff; /* White box for contrast */
+    border-radius: 20px; /* Smooth rounded corners */
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* The title of the login page */
+.login-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333; /* Dark text for readability */
+}
+
+/* Login input fields */
+.login-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #d1d5db; /* Light gray border */
+    border-radius: 10px;
+    font-size: 16px;
+    background: #f9fafb; /* Slightly off-white input background */
+}
+
+/* Focus styles for inputs */
+.login-input:focus {
+    outline: none;
+    border-color: #4f46e5; /* Indigo border on focus */
+    background: #ffffff;
+}
+
+/* Login button */
+.login-button {
+    background: #4f46e5; /* Flat indigo button */
+    color: #ffffff; /* White text for contrast */
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+/* Hover effect for the button */
+.login-button:hover {
+    background: #4338ca; /* Slightly darker indigo */
+}
+
+/* Responsiveness */
+@media (max-width: 500px) {
+    .login-box {
+        padding: 20px;
+    }
+
+    .login-title {
+        font-size: 20px;
+    }
+}
+
+.event-submenu {
+    min-height:488px;
+    display:flex;
+    flex-direction:column;
+    transform:translatex(0px) translatey(0px);
+    justify-content:normal;
+    align-items:center;
+    width: auto;
+}
+
+.event-submenu form div {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-left:0px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
