@@ -21,7 +21,7 @@ public class AppointmentController {
     }
 
     @GetMapping
-    public List<Appointment> getUserStartsWith(@RequestParam("name") String name){
-        return appointmentService.getAppointmentStartsWith(name);
+    public List<Appointment> getAllByCreator(@RequestParam("name") String name){
+        return appointmentService.getAppointmentsByCreator(name);
     }
 }

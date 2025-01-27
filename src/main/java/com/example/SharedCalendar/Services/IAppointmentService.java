@@ -8,4 +8,6 @@ public interface IAppointmentService {
     List<Appointment> getAppointmentStartsWith(String name);
 
     String save(Appointment appointment);
+
+    List<Appointment> getAppointmentsByCreator(String name);
 }
